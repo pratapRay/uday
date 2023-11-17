@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Navigation Bar with Propdown Menu</title>
+  </head>
+  <body>
+    <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <a class="logo" href="/">
+          <img src="addidas.png" width="35" height="35" alt="Inc Logo" />
+        </a>
+        <div class="nav-start">
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li><a class="nav-link" href="/">Home</a></li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn "
+                  data-dropdown="dropdown1"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="browse"
+                >
+                  Department
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown1" class="dropdown dropdown-dept">
+                  <ul role="menu">
+
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#best-of-the-day">
+                        <div>
+                          <span class="dropdown-link-title department-drop"
+                            >ANESTHESIA</span
+                          >
+                        </div>
+                      </a>
+                      <a class="dropdown-link" href="#best-of-the-day">
+                        <div>
+                          <span class="dropdown-link-title department-drop"
+                            >CARDIAC SCIENCE</span
+                          >
+                        </div>
+                      </a>
+                      <a class="dropdown-link" href="#best-of-the-day">
+                        <div>
+                          <span class="dropdown-link-title department-drop"
+                            >CLINICAL PATHOLOGY & LABORATORY SERVICES</span
+                          >
+                        </div>
+                      </a>
+                      <a class="dropdown-link" href="#best-of-the-day">
+                        <div>
+                          <span class="dropdown-link-title department-drop"
+                            >CRITICAL CARE</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <hr>
+                  <ul role="menu">
+                    <li role="menuitem">
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >DERMATOLOGY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >DIABETOLOGY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >ENT</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >EMERGENCY & TRAUMA CARE</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                  </ul>
+                  <hr>
+                  <ul role="menu">
+                    <li role="menuitem">
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >GASTROENTEROLOGY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >GENERAL SURGEON</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >GENERAL MEDICINE</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >INTERNAL MEDICINE</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                  </ul>
+                  <hr>
+                  <ul role="menu">
+                    <li role="menuitem">
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >INTERVENTIONAL RADIOLOGY AND IMAGING SCIENCES</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >NEPHROLOGY & RENAL SCIENCES</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >NEUROLOGY AND NEUROSURGERY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >OBSTETRICS & GYNAECOLOGY & IVF</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                  </ul>
+                  <hr>
+                  <ul role="menu">
+                    <li role="menuitem">
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >ONCOLOGY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >OPHTHALMOLOGY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >ORTHOPEDICS & JOINT REPLACEMENT</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >PEDIATRIC</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                  </ul>
+                  <hr>
+                  <ul role="menu">
+                    <li role="menuitem">
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >PULMONOLOGY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >PEDIATRIC SURGERY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >PHYSIOTHERAPY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                          <div>
+                            <span class="dropdown-link-title department-drop"
+                              >PSYCHIATRY</span
+                            >
+                          </div>
+                        </a>
+                        <a class="dropdown-link" href="#best-of-the-day">
+                            <div>
+                              <span class="dropdown-link-title department-drop"
+                                >RADIOLOGY</span
+                              >
+                            </div>
+                          </a>
+                          <a class="dropdown-link" href="#best-of-the-day">
+                            <div>
+                              <span class="dropdown-link-title department-drop"
+                                >RHEUMATOLOGY & IMMUNOLOGY</span
+                              >
+                            </div>
+                          </a>
+                          <a class="dropdown-link" href="#best-of-the-day">
+                            <div>
+                              <span class="dropdown-link-title department-drop"
+                                >UROLOGY</span
+                              >
+                            </div>
+                          </a>
+                      </li>
+                  </ul>
+    
+                   
+                </div>
+              </li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown2"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                  About
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown2" class="dropdown">
+                  <ul role="menu">
+                    <li>
+                      <span class="dropdown-link-title">About Tulip</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding">Introduction</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#illustrations"
+                        >Mission & Vission</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding"
+                        >Board of Directors</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding">News & Media</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown3"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                  Our Services
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown3" class="dropdown">
+                  <ul role="menu">
+                    <li>
+                      <span class="dropdown-link-title">Services By Tulip</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding"
+                        >Admission Process</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#illustrations"
+                        >Discharge Process</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding"
+                        >Health Checkup</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding"
+                        >Visiting Time</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding"
+                        >Ambulance Service</a
+                      >
+                    </li>
+                  </ul>
+                  <ul role="menu">
+                    <li>
+                      <span class="dropdown-link-title">Download App</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#mac-windows"
+                        >MacOS & Windows</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#linux">Linux</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown4"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                  Our Team
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown4" class="dropdown">
+                  <ul role="menu">
+                    <li>
+                      <span class="dropdown-link-title">Team of Tulip</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding">Doctor</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#illustrations"
+                        >Working Staff</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown5"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                  Contact Us
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown5" class="dropdown">
+                  <ul role="menu">
+                    <li>
+                      <span class="dropdown-link-title"
+                        >Conatct us to Our Team</span
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding">Contact</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#illustrations"
+                        >Social Media</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding"
+                        >Book Appointment</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav-end">
+          <button
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- header image -->
+    <section class="search">
+        <img src="tulip.jpeg" alt="search-image">
+        <div class="content">
+            <h1>TULIP HOSPITAL</h1>
+            <p>Super Specialist</p>
+            
+        </div>
+    </section>
+    <section>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet fugiat debitis dolorum ut. Ab, odit consequuntur! Quia in, ipsa, itaque aperiam iste asperiores rerum, magni sunt modi velit recusandae! Illo maiores numquam id voluptatibus velit fugit rem explicabo beatae. Quisquam porro saepe repudiandae culpa?
+    </section>
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img"><img src="tulip.jpeg" alt="img" draggable="false"></div>
+            <h2>Blanche Pearson</h2>
+            <span>Sales Manager</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="tulip.jpeg" alt="img" draggable="false"></div>
+            <h2>Joenas Brauers</h2>
+            <span>Web Developer</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="tulip.jpeg" alt="img" draggable="false"></div>
+            <h2>Lariach French</h2>
+            <span>Online Teacher</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="tulip.jpeg" alt="img" draggable="false"></div>
+            <h2>James Khosravi</h2>
+            <span>Freelancer</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="tulip.jpeg" alt="img" draggable="false"></div>
+            <h2>Kristina Zasiadko</h2>
+            <span>Bank Manager</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="tulip.jpeg" alt="img" draggable="false"></div>
+            <h2>Donald Horton</h2>
+            <span>App Designer</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    <footer>
+        this is footer
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
